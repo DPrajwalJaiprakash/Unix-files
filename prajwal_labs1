@@ -31,7 +31,7 @@
      - ? - forward search
      - :! - to run the shell commands like :!dir, :!ls
      - :w - TEST(where TEST is the filename you choose). save the file
-     - v - starts visual mode for selecting the lines and you can perform operation on that        like d delete  
+     - v - starts visual mode for selecting the lines and you can perform operation on that like d delete  
      - :r - filename will insert the content into the current file
      - R - to replace more than 1 character
      - y - operator to copy text using v visual mode  and p to paste it
