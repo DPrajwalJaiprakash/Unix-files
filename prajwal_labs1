@@ -1,0 +1,47 @@
+1. To create a directory we use the command : mkdir<name>
+2. the command "ls" display all the doccuments in the system.
+3. the command "cd <directory_name>" gets you into the directory.
+4. the command "gedit <filename>" gets you into the text editor.
+5. vim<filename> : creates a text file
+6. i : insert mode
+7. esc: command mode
+8. In the command mode:
+     - x- to delete the unwanted character
+     - u- to undo the last command
+     - U- to undo the whole line.
+     - CTRL R- to redo
+     - A- to append text at the end
+     - :wq- to save and exit
+     - :ql - to trash all changes
+     - dw - to move the cursor to the beginning of the word and to delete it
+     - 2w - to move the cursor 2 words forward
+     - 3e - to move the cursor to the end of the 3rd word forward
+     - 0 - to move to the start of the line.
+     - d2w - deletes 2 words
+     - dd- to delete the line 
+     - 2dd - to delete the line
+     - p - puts the previously deleted text after the cursor
+     - r - to replace the letter
+     - ce - deletes the word and places you in insert mode
+     - G - to move you to the bottom of the file
+     - gg - to move you to the start of the file
+     - % - to find a matching 0,},or]
+     - :s/old/new/g- to substitute "new" or"old" where g is global
+     - / backward search n to find the next occurance and N to search in opposite direction
+     - ? - forward search
+     - :! - to run the shell commands like :!dir, :!ls
+     - :w - TEST(where TEST is the filename you choose). save the file
+     - v - starts visual mode for selecting the lines and you can perform operation on that        like d delete  
+     - :r - filename will insert the content into the current file
+     - R - to replace more than 1 character
+     - y - operator to copy text using v visual mode  and p to paste it
+     - yw - yanks one word
+     - o - opens a line below the cursor and start insert mode
+     - O - opens a line above the cursor
+     - a - insert texts after the cursor
+     - A - inserts texts after the end of the line
+     - e - command moves to the end of the line
+     - y - operator yanks(copies) text, p puts(pastes) it.
+     - R - enters Replace mode until <ESC> is pressed
+     - ctrl+w - to jump from one window to another. 
+9. command :e and press ctrl+D to list all the command name starts with :e and press tab to complete the command
