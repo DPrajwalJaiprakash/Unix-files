@@ -374,6 +374,28 @@ Wed, 31 Jan 2018 10:18:51 +0530
 the command uname
 cs2016a206@user:~$ uname
 Linux
+ -a, --all
+              print  all  information,  in the following order, except omit -p
+              and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+              print the network node hostname
+
+       -r, --kernel-release
+              print the kernel release
+
+       -v, --kernel-version
+              print the kernel version
+
+       -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+
 -----------------------------------------------------------
 the command time 
 cs2016a206@user:~$ time
@@ -382,6 +404,49 @@ real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
+ -o FILE, --output=FILE
+              Write the resource use statistics to FILE instead of to the
+              standard error stream.  By default, this overwrites the file,
+              destroying the file's previous contents.  This option is useful
+              for collecting information on interactive programs and programs
+              that produce output on the standard error stream.
+
+       -a, --append
+              Append the resource use information to the output file instead
+              of overwriting it.  This option is only useful with the `-o' or
+              `--output' option.
+
+       -f FORMAT, --format FORMAT
+              Use FORMAT as the format string that controls the output of
+              time.  See the below more information.
+
+       --help Print a summary of the command line options and exit.
+
+       -p, --portability
+              Use the following format string, for conformance with POSIX
+              standard 1003.2:
+-a, --append
+              Append the resource use information to the output file instead
+              of overwriting it.  This option is only useful with the `-o' or
+              `--output' option.
+
+       -f FORMAT, --format FORMAT
+              Use FORMAT as the format string that controls the output of
+              time.  See the below more information.
+
+       --help Print a summary of the command line options and exit.
+
+       -p, --portability
+              Use the following format string, for conformance with POSIX
+              standard 1003.2:
+                        real %e
+                        user %U
+                        sys %S
+
+       -v, --verbose
+              Use the built-in verbose format, which displays each available
+              piece of information on the program's resource use on its own
+              line, with an English description of its meaning.
 
 
 
