@@ -178,5 +178,22 @@ USN number,Name,Reg. No	16,prajwal,16016
 15,missa,16015	
 
 
-
+1) display third column of csea.csv without printing the heade "cgpa" also sort the same
+answer :
+cs2016a206@user:~/prajwal$ cut -d , -f 3 csea2_djunix.csv|sort|grep -v "CGPA"
+10
+3.2
+4.4
+4.6
+5.2
+6.6
+7.4
+8.7
+8.9
+9
+9.2
+9.3
+9.5
+9.8
+9.9
 
