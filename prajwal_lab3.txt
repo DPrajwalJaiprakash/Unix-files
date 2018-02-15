@@ -196,6 +196,9 @@ cs2016a206@user:~/prajwal$ cut -d , -f 3 csea2_djunix.csv|sort|grep -v "CGPA"
 9.5
 9.8
 9.9
+
+to sort the name, we will use the command 
+$ cut -d , -f 2 cseunix.csv|grep -v "Name"|sort
 ----------------------------------------------------------------------------------
 2.Display current time using date command
 
