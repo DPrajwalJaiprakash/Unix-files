@@ -2,6 +2,25 @@
 answer:
 sed -i 's/name/Students_name/g' csea2.csv
 cat csea2.csv
+---------------------------------------------------------------------------------------------
+7. Sort only name field using positions shell programming
+answer: $cut -d , -f 2 csea2_unix.csv|grep -v "Name"|sort +1 -2
+Adam
+Ben
+Cathy
+Dom
+Elen
+Farooq
+Gal
+Harry
+Inam
+John
+korin
+Lannister
+missa
+nani
+missa
+
 
 --------------------------------------------------------------------------------------------
 
