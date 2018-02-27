@@ -1,3 +1,13 @@
+
+=========================================================================
+Q. prefix date infront of the file name and display
+
+cdate=$(date +%Y-%m-%d)
+for file in file1.tar.gz file2.tar.gz; do
+    mv "$file" "$cdate"_"$file"
+done
+
+==========================================================================
 DEVELOPING A SHELL
 
 Basic lifetime of a shell
