@@ -1,0 +1,31 @@
+							Use of select commands
+							-----------------------
+
+PROGRAM
+-------
+
+names='Adam Ben Carl Dom'
+PS3='Select names: '
+select name in $names
+do
+    if [ $name == dom ]
+      then
+        break
+    fi
+    echo "hello $name"
+done
+
+OUTPUT
+------
+
+1) Adam
+2) Ben
+3) Carl
+4) Dom
+Select names: 1
+hello Adam
+Select names: 2
+hello Ben
+Select names: 3
+hello Carl
+Select names: 4
