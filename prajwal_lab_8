@@ -15,11 +15,7 @@ OUTPUT
 28-02-2018_t1
 28-02-2018_t2
 28-02-2018_t3
-
-
-
-
-
+----------------------------------------------------------------------------------------------------
 
 2.Grep with all possible options
 
@@ -59,8 +55,7 @@ unix is case sensitive
 With "-x" option
 $ grep -x "unix" sample
 
-
-
+--------------------------------------------------------------------------------------------------------------
 
 3.Setting permission to the files/directories
 
@@ -70,9 +65,7 @@ ls -l sample
 
 -rwxr--r-- 1 cs2016a204 cs2016a204 28 Feb 10:15 sample
 
-
-
-
+---------------------------------------------------------------------------------------------------------------------
 
 4.File related commands
 
@@ -166,8 +159,6 @@ d e f
 
 6. use grep to find all possible aggarwal using grep command
 
-Q4)
-
 ---->
 
 cat test
@@ -211,6 +202,11 @@ agarwal
 aggrawal
 
 agrawal
+
+-----------------------------------------------------------------------------------------------
+7. use grep command to list only the directories
+
+$ls -l | grep ^d
 
 
 
