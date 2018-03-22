@@ -155,6 +155,53 @@ a b c
 d e f
 
 
+6. use grep to find all possible aggarwal using grep command
+
+Q4)
+
+---->
+
+cat test
+
+Aggarwal
+
+Agarwal
+
+Agrawal
+
+Aggrawal
+
+aggarwal
+
+agarwal
+
+aggrawal
+
+agrawal
+
+----> 
+
+Find a regular expression for the above file:
+
+--> grep [aA][gg]g*[ar][ra]wal test
+
+Result:
+
+Aggarwal
+
+Agarwal
+
+Agrawal
+
+Aggrawal
+
+aggarwal
+
+agarwal
+
+aggrawal
+
+agrawal
 
 
 
