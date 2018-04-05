@@ -1,0 +1,12 @@
+Q) Shell script to know how many users have logged in
+
+echo "MENU FOR USERS INFORMATION"
+echo "1.Current user"
+echo "2.All the users who have logged in"
+read n
+if [ $n -eq 1 ]
+then 
+   whoami
+   else 
+    who -q
+    fi
