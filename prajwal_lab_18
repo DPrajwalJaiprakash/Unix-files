@@ -45,7 +45,8 @@ fi
 done
 
 
-
+OUTPUT:
+-------
 
 Enter name of database 
 emp.db
@@ -110,7 +111,7 @@ y
 1005    steve    CEO           cmru
 1006    red    Dy Manager    cmru
 
-
+---------------------------------------------------------------------------------------------------------
 Q)write a shell script to write a thought for the day to give a quote on logging in
 
 quotes=("work is worship" "try and try till you succeed" "Never give up")
